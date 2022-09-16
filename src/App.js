@@ -37,7 +37,7 @@ function App() {
 
        
        {resData.message}
-
+       
       { resData && (resData.message != 'Not Found') &&(
         <div className='userDetailCard'> 
            <div className='userDetailBody'>
